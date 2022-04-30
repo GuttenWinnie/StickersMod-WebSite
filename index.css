@@ -5,24 +5,10 @@ body{
 .header_menu{
     display:flex;
     justify-content: center;
-    background-color: rgb(186, 182, 53);
+    background-color: rgb(144, 144, 144);
     text-decoration: none;
 }
-.header_menu_item1_link{
-    padding: 0 25px 0 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    color: black;
-    text-decoration: none;
-}
-.header_menu_item2_link{
-    padding: 0 25px 0 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 35px;
-    color: black;
-    text-decoration: none;
-}
-.header_menu_item3_link{
+.header_menu_item_link{
     padding: 0 25px 0 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
@@ -30,117 +16,32 @@ body{
     text-decoration: none;
 }
 .news{
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    width: 50%;
+    max-width: 50%;
     margin-left: 25%;
 }
-.news_item1_head{
-    padding: 0px;
-    margin: 0px;
-    display:inline-flex;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    width: 300px;
-    background-color: rgb(204, 207, 195);
+.news_item{
+display: flex;
+flex-wrap:nowrap;
+padding: 10px;
+margin-top: 10px;
+background-color: rgb(217, 217, 217);
 }
-.news_item2_head{
-    padding: 0px;
-    margin: 0px;
-    display:inline-flex;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    width: 300px;
-    background-color: rgb(204, 207, 195);
+.news_item_textbox{
+display: grid;
+grid-template-rows: 50px auto 15px;
+padding-left: 20px;
 }
-.news_item3_head{
-    padding: 0px;
-    margin: 0px;
-    display:inline-flex;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    width: 300px;
-    background-color: rgb(204, 207, 195);
-}
-.news_item1{
-    width: 600px;
-    height: 300px auto;
-    justify-content: center;
+.news_item_textbox_head{
     text-align: center;
-    padding: 10px 0 10px 0;
-    margin: 0;
-    background-color: rgb(217, 217, 217);
-    /* border: 1px black solid; */
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.news_item2{
-    width: 600px;
-    height: 300px auto;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 0 10px 0;
-    margin: 0;
-    background-color: rgb(217, 217, 217);
-    /* border: 1px black solid; */
-
-}
-.news_item3{
-    width: 600px;
-    height: 300px auto;
-    justify-content: center;
-    text-align: center;
-    padding: 10px 0 10px 0;
-    margin: 0;
-    background-color: rgb(217, 217, 217);
-    /* border: 1px black solid; */
-
-}
-.news_item1_text{
-    display:inline-flex;
+.news_item_text{
     text-align: justify;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    width: 300px;
-    background-color: rgb(210, 210, 210);
-    border: 1px rgb(255, 255, 255) solid;
+    font-family:'Times New Roman', Times, serif;
 }
-.news_item2_text{
-    display:inline-flex;
-    text-align: justify;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    width: 300px;
-    background-color: rgb(210, 210, 210);
-    border: 1px rgb(255, 255, 255) solid;
+.news_item_more{
+text-align: end;
 }
-.news_item3_text{
-    display:inline-flex;
-    text-align: justify;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    width: 300px;
-    background-color: rgb(210, 210, 210);
-    border: 1px rgb(255, 255, 255) solid;
-}
-                        /* Прошлый вариант блока новостей */
-/* .news_item1_text{
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
-.news_item2_text{
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
-.news_item3_text{
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-} */
