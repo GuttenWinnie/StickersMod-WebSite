@@ -1,6 +1,10 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: rgb(255, 0, 0);
+}
+.container{
+    background-color: rgb(186, 186, 186);
 }
 .header_menu{
     display:flex;
@@ -41,6 +45,7 @@ padding-left: 20px;
 .news_item_text{
     text-align: justify;
     font-family:'Times New Roman', Times, serif;
+    padding-top: 25px;
 }
 .news_item_more{
 text-align: end;
